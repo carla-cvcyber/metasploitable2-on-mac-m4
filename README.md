@@ -20,7 +20,7 @@ This guide ensures cybersecurity practitioners can:
 * Configure a safe, isolated network for exploit simulation.
 * Validate connectivity between an attacker machine (e.g., Kali Linux) and the Metasploitable2 target.
 
-This lab setup guide also supports the practical application of concepts discussed in the blog post: **"[Placeholder: Title of Your Blog Post]"** on [cvcyber.dev]([Placeholder: Direct Link to your cvcyber.dev article]).
+This lab setup guide also supports the practical application of concepts discussed in the blog post: **"How to Setup Metasploitable2 on Mac M4: the guide Mac-users need for Cybersecurity Testing"** on [cvcyber.dev](https://www.cvcyber.dev/portfolio-collections/my-portfolio/how-to-setup-metasploitable2-on-mac-m4-the-guide-mac-users-need-for-cybersecurity-testing).
 
 ---
 
