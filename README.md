@@ -1,10 +1,10 @@
-# 🛡️ Metasploitable2 on Mac M4: Your Legacy Pentest Lab Rebuilt for Apple Silicon  
+# 🛡️ Metasploitable2 on Mac M4: Your Legacy Pentest Lab Rebuilt for Apple Silicon (How To)
 **By Carla Vieira — May 2025**  
 > Traditional virtualization broke on Apple Silicon — but legacy vulnerabilities didn’t disappear. This guide rebuilds a Metasploitable2 environment on Mac M4 using UTM, enabling safe, hands-on testing of real-world exploits on modern hardware.
 
 ---
 
-## ⚠️ Why This Project Matters
+## ⚠️ Why This Tutorial Matters
 
 Setting up proper penetration testing infrastructure is non-negotiable for cybersecurity professionals. But with the shift to Apple’s M1–M4 chips, popular tools like **VirtualBox** and **VMware** lost compatibility with x86-based test environments.
 
@@ -18,7 +18,7 @@ This project solves that by using **UTM + QEMU** to restore full legacy lab func
 ✅ Fully functional **Metasploitable2** lab running on Mac M4  
 ✅ Understanding of **UTM virtualization** for cybersecurity testing  
 ✅ **Network configuration** for safe exploit simulation  
-✅ **Connection validation** between attacker (e.g. Kali) and target (Metasploitable2)
+✅ **Connection validation** between attacker (Kali) and target (Metasploitable2)
 
 ---
 
@@ -100,8 +100,9 @@ Metasploitable2, generously maintained by [Rapid7](https://sourceforge.net/proje
 ### 6. Network Configuration & Validation
 
 - Find the VM’s IP address via `ifconfig` or `ip a`
-- From your host Mac or another VM (e.g. Kali), run:
+- From your host Mac or your Kali VM, ping the Metasploitable2 VM to validate the connection. Run:
 
 ```bash
 ping <Metasploitable2_IP>
+
 
