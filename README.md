@@ -104,5 +104,10 @@ Metasploitable2, generously maintained by [Rapid7](https://sourceforge.net/proje
 
 ```bash
 ping <Metasploitable2_IP>
+```
+
+![Alt text](screenshots/BLOG2_8.jpg)
+
+
 
 
